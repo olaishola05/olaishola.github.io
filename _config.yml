@@ -1,0 +1,19 @@
+title: "Recursive Rhino (Pod 3.1.0)"
+email: fellowship@mlh.io
+description: >- # this means to ignore newlines until "baseurl:"
+  This is my portfolio website!
+baseurl: "/" 
+url: "/" 
+form_url: "https://formspree.io/f/mnqlbokq"
+twitter_username: mlhacks
+github_username:  mlh-fellowship
+
+sass:
+  sass_dir: _sass
+
+icon: /assets/img/icon.jpg
+
+# your google analytics tag goes here
+# how to get your analytics tag?
+# https://support.google.com/analytics/answer/1008080
+google-analytics: XX-000000000-0

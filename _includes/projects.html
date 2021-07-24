@@ -1,0 +1,26 @@
+<a id="projectdivoffset"></a>
+<h2 id="projectdiv">Projects</h2>
+<div class="card-container">
+  {% for item in site.data.projects %} {% if item.page-name %} {% else %} {%
+  endif %}
+  <div class="project-card">
+    <div class="image">
+      <img src="./assets/img/project/{{ item.logo }}" />
+      <div class="overlay"></div>
+    </div>
+    <div class="info">
+      <p class="title">{{ item.title }}</p>
+      <p class="location">{{ item.event }}</p>
+      <p class="dates">{{ item.date }}</p>
+    </div>
+    <div class="content">
+      <div class="text">{{ item.project-description }}<br /></div>
+      <img
+        class="arrow"
+        src="./assets/img/project/arrow.png"
+        onclick="location.href='/projects/{{ item.page-name }}'"
+      />
+    </div>
+  </div>
+  {% endfor %}
+</div>

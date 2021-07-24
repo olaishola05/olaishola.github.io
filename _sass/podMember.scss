@@ -1,0 +1,110 @@
+.containerr {
+  height: 300px;
+  width: 100%;
+  top: 60px;
+  left: calc(50% - 300px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cardd {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  height: 280px;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid gray;
+  transition: 0.4s ease-out;
+  position: relative;
+}
+
+.cardd:not(:first-child) {
+  margin-left: -50px;
+}
+
+.cardd:hover {
+  transform: translateY(-50px);
+  transform: translateX(-50px);
+  transition: 0.4s ease-out;
+}
+
+.cardd:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.titlee {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+.barr {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.emptybarr {
+  background-color: #1c539f;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbarr {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0, 154, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 154, 217, 1) 0%,
+    rgba(217, 147, 0, 1) 65%,
+    rgba(255, 186, 0, 1) 100%
+  );
+  transition: 0.6s ease-out;
+}
+
+.cardd:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.circlee {
+  position: absolute;
+  top: 120px;
+  left: calc(50% - 70px);
+  max-width: 100%;
+
+  img{
+    max-width: 100%;
+  }
+}
+
+.strokee {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+.cardd:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}

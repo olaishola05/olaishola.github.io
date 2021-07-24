@@ -1,0 +1,36 @@
+.footer {
+  border-top: 1px solid #aaa;
+  background-color: #1d539f;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  position:relative;
+}
+
+.footer-icons a {
+  margin: 0px 0.8em;
+  padding: 0.8em;
+
+  i {
+    font-size: 2em;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-icons a.footer-icons {
+    margin: 0px 0.2em;
+    padding: 0.3em;
+  }
+}

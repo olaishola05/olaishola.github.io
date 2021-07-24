@@ -1,0 +1,15 @@
+- link: tel:+19876543210
+  class: fas fa-phone-square-alt
+
+- link: mailto:felloship@mlh.io
+  class: fas fa-envelope
+
+- link: https://twitter.com/
+  class: fab fa-twitter-square
+
+- link: https://linkedin.com/
+  class: fab fa-linkedin
+
+- link: https://github.com/MLH-Fellowship
+  class: fab fa-github
+

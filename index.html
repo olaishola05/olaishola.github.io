@@ -1,0 +1,41 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    
+    <span id="circle" class="circle"></span>
+    
+    {% include navbar.html %}
+
+    {% include profile.html %}
+
+    {% include bio.html %}
+
+    {% include projects.html %}
+
+    {% include experience.html %}
+
+    {% include education.html %}
+
+    {% include podMember.html %}
+    
+    {% include contact.html %}
+    
+    {% include google-analytics.html %}
+
+    {% include scrollbutton.html%}
+</body>
+
+{% include footer.html %}
+
+<script src="./assets/js/slider.js"></script>
+<script src = "./assets/js/scroll.js"></script>
+</html>

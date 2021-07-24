@@ -1,0 +1,26 @@
+.scrollToTopBtn {
+    background-color: #1d539f;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all .5s ease;
+  }
+
+  .scrollToTopBtn:focus{
+      outline: none;
+  }
+      
+  .showBtn {
+    opacity: 1;
+    transform: translateY(0);
+  }

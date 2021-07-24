@@ -1,0 +1,58 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+  }
+
+  img {
+    border-radius: 50%;
+    max-width: 200%;
+    max-height: 200%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .profile-picture {
+    margin-bottom: 20px;
+    height: 250px;
+    transition: all 0.3s;
+  }
+}
+
+.profile {
+    background: linear-gradient(-45deg, #e73c7e, #00008B,#1d539f, #23a6d5);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .profile h1 {
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .profile .profile-picture {
+    height: 55vw;
+    min-height: 140px;
+  }
+}

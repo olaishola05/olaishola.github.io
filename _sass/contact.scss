@@ -1,0 +1,62 @@
+.contact {
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+}
+#heading {
+	text-align: center;
+	margin-bottom: 25px;
+}
+#heading h2 {
+	margin-top: 9px;
+}
+.contactform {
+	margin-top: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+}
+.cfdiv {
+	margin-bottom: 12px;
+}
+.cfdiv input {
+	height: 35px;
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #e1e1e3;
+}
+.cfdiv textarea {
+	height: 80px;
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #e1e1e3;
+}
+.contactform label {
+	font-weight: 500;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+.contactform button {
+	height: 35px;
+	width: 70px;
+	background-color: #1c539f;
+	color: white;
+	border: 2px solid #e1e1e3;
+	outline: none;
+	opacity: 0.8;
+	transition: 0.5s;
+	display: block;
+	margin: auto;
+}
+button:hover {
+	opacity: 1.5;
+}
+@media only screen and (max-width: 800px) {
+	.contactform {
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.contactform {
+		width: 200px;
+	}
+}
