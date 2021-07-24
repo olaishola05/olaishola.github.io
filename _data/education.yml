@@ -1,6 +1,9 @@
-- course: BSc Computer Science
-  institute: University of Birmingham
-  dates: 2018 - 2021
+- course: MSc Computer Networking
+  institute: University of Bedfordshire
+  logo: uob.png
+
+- course: BSc Computer Networking
+  institute: University of Bedfordshire
   logo: uob.png
   
 - course: Pre Fellowship Fellow
