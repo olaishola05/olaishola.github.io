@@ -5,8 +5,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" 
 url: "/" 
 form_url: "https://formspree.io/f/mnqlbokq"
-twitter_username: Orlaish
-github_username:  netman5
+
+twitter_username: https://twitter.com/Orlaish
+t-class: fab fa-twitter-square
+
+github_username: https://github.com/netman5
+g-class: fab fa-github
+
+linkedin_username: https://www.linkedin.com/olaishola 
+l-class: fab fa-linkedin
 
 sass:
   sass_dir: _sass
