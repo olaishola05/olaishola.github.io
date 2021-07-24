@@ -3,6 +3,7 @@
 <div class="card-container">
   {% for item in site.data.experience %}
   <div class="card">
+    {% if item.logo %}
     <div class="icon">
       <img src="./assets/img/experience/{{ item.logo }}" />
     </div>
@@ -11,6 +12,16 @@
       <p class="location">{{ item.company }}</p>
       <p class="dates">{{ item.dates }}</p>
     </div>
+  
+  {% else %}
+
+  <div class="info">
+    <p class="title">{{ item.role }}</p>
+    <p class="location">{{ item.company }}</p>
+    <p class="dates">{{ item.dates }}</p>
   </div>
+
+  {%endif%}
+</div>
   {% endfor %}
 </div>

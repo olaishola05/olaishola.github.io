@@ -1,3 +1,13 @@
+- course: Pre Fellowship Fellow
+  institute: MLH Fellowship
+  dates: Summer 2021
+  logo: fellowship.svg
+
+- course: Google Cloud Platform
+  institute: Google, Andela and Pluralsight
+  dates: Summer 2020
+  logo: Google.png
+
 - course: MSc Computer Networking
   institute: University of Bedfordshire
   logo: uob.png
@@ -6,8 +16,4 @@
   institute: University of Bedfordshire
   logo: uob.png
   
-- course: Pre Fellowship Fellow
-  institute: MLH Fellowship
-  dates: Summer 2021
-  logo: fellowship.svg
   
