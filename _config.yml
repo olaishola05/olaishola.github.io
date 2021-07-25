@@ -7,13 +7,13 @@ url: "/"
 form_url: "https://formspree.io/f/mnqlbokq"
 
 twitter_username: https://twitter.com/Orlaish
-t-class: fab fa-twitter-square
+t-class: fab fa-twitter-square fa-2x
 
 github_username: https://github.com/netman5
-g-class: fab fa-github
+g-class: fab fa-github fa-2x
 
 linkedin_username: https://www.linkedin.com/olaishola 
-l-class: fab fa-linkedin
+l-class: fab fa-linkedin fa-2x
 
 sass:
   sass_dir: _sass
