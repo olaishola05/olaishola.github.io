@@ -115,3 +115,10 @@ $image-space: 35%;
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .project-card{
+    width: 95vw;
+    margin: 0 auto;
+  }
+}

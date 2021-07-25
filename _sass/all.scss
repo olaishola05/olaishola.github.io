@@ -9,6 +9,7 @@
 @import 'podMember';
 @import 'project';
 @import 'scrollbutton';
+@import 'bio';
 
 html,
 body {
@@ -63,6 +64,11 @@ body {
   color: #fff;
 }
 
+.dark-mode .bio{
+  background-color: #121212 !important;
+  color: #fff;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -104,7 +110,6 @@ h2 {
   font-weight: 700;
   text-align: center;
 }
-
 .card {
   display: flex;
   flex-direction: row;
@@ -308,3 +313,4 @@ a {
   transform: translateY(-100%);
   transition: all 0.3s 1s ease-out;
 }
+
