@@ -1,8 +1,9 @@
 .stack-container {
-    // width: 50vw;
+    width: 60vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
     box-sizing: border-box;
   }
 
@@ -14,7 +15,7 @@
     margin: 20px 30px;
     background-color: white;
     border-radius: 0.375rem;
-    padding: 1.5em;
+    // padding: 1.5em;
     font-size: 1.2em;
   }
   
@@ -25,7 +26,7 @@
   
   @media only screen and (max-width: 1500px) {
     .stack-container {
-      grid-template-columns: repeat(5, 2fr);
+      grid-template-columns: repeat(4, 1fr);
     }
 
     .stack-card{
@@ -35,7 +36,7 @@
   
   @media only screen and (max-width: 1000px) {
     .stack-container {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
 
     .stack-card{
@@ -45,12 +46,13 @@
   
   @media only screen and (max-width: 768px) {
     .stack-container {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
   
       .stack-card {
         flex-direction: column;
         margin: 0.5em;
-        padding: 1em;
+        width: 80px;
+        // padding: 1em;
       }
     }
   }
