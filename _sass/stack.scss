@@ -1,5 +1,5 @@
 .stack-container {
-    width: 60vw;
+    width: 50vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     font-family: 'Open Sans', sans-serif;
@@ -12,16 +12,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 20px 30px;
+    // justify-content: center;
+    margin: 5px 5px;
     background-color: white;
     border-radius: 0.375rem;
-    // padding: 1.5em;
+    padding: .3em;
     font-size: 1.2em;
   }
   
-  .stack-card:hover {
-    box-shadow: 10px 10px #1c539f;
-  }
+  // .stack-card:hover {
+  //   box-shadow: 10px 10px #1c539f;
+  // }
 
   
   @media only screen and (max-width: 1500px) {
@@ -30,13 +31,13 @@
     }
 
     .stack-card{
-        width: 150px;
+        width: 200px;
     }
   }
   
   @media only screen and (max-width: 1000px) {
     .stack-container {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
 
     .stack-card{
@@ -51,7 +52,7 @@
       .stack-card {
         flex-direction: column;
         margin: 0.5em;
-        width: 80px;
+        width: 100px;
         // padding: 1em;
       }
     }
