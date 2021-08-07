@@ -1,23 +1,41 @@
 - tech_name: HTML
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit 
   logo: htm.png
 
 - tech_name: CSS
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   logo: styling.png
 
-- tech_name: CSS
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  logo: styling.png
+- tech_name: JS
+  logo: javascript-vector.png
 
-- tech_name: CSS
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  logo: styling.png
+- tech_name: Bootstrap
+  logo: bootstrap.jpeg
 
-- tech_name: CSS
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  logo: styling.png
+- tech_name: Material UI
+  logo: mui.png
 
-- tech_name: CSS
-  # description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  logo: styling.png
+- tech_name: ReactJS
+  logo: reactjs.png
+
+- tech_name: NodeJS
+  logo: nodejs.png
+
+- tech_name: Express
+  logo: express.jpeg
+
+- tech_name: MongoDB
+  logo: mongoDB.png
+
+- tech_name: Git
+  logo: git.png
+
+- tech_name: GitHub
+  logo: gitHub.png
+
+- tech_name: Ts
+  logo: ts.png
+
+- tech_name: Python
+  logo: python.png
+
+- tech_name: Wordpress
+  logo: wordpress.png
