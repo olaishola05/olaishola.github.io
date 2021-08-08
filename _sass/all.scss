@@ -69,6 +69,11 @@ body {
   color: #fff;
 }
 
+.dark-mode .stack-card{
+  background-color: #121212 !important;
+  color: #fff; 
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

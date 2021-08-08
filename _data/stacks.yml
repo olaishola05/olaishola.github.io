@@ -28,6 +28,9 @@
 - tech_name: Git
   logo: git.png
 
+- tech_name: API
+  logo: api.png
+
 - tech_name: GitHub
   logo: gitHub.png
 
