@@ -1,6 +1,6 @@
-- title: Task Tracker
+- title: Tabify Tab Manager Chrome Extension
   event: MLH Fellowship Pre Fellowship Project
   date: Summer 2021  - Batch 3.5
-  page-name: project
-  logo: time-tracker.jpeg
-  project-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  page-name: tabify
+  logo: tabify.png
+  project-description: A one-stop bookmark management tool for the users. It is a chrome extension that capture all your tabs in the current window under a defined category and group to restore tabs as and when required.

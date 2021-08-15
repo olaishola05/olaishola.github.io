@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is my portfolio website!
 baseurl: "/" 
 url: "/" 
-form_url: "https://formspree.io/f/mnqlbokq"
+form_url: "https://formspree.io/f/xdoywvee"
 
 twitter_username: https://twitter.com/Orlaish
 t-class: fab fa-twitter-square fa-2x
@@ -23,4 +23,4 @@ icon: /assets/img/icon.jpg
 # your google analytics tag goes here
 # how to get your analytics tag?
 # https://support.google.com/analytics/answer/1008080
-google-analytics: XX-000000000-0
+google-analytics: UA-204397688-1
